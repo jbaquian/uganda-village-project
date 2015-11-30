@@ -1,0 +1,48 @@
+<!doctype html>
+<!--
+  HTML for home page of The Uganda Village Project website
+  Authors: Jacob Baquian, Christopher Li, Young Pu, and Jonathan Shilling
+  INFO 343c
+  Mike Freeman
+-->
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<title>Uganda Village Project</title>
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<meta name="description" content="Homepage for The Uganda Village Project">
+	<meta name="author" content="Jacob Baquian, Christopher Li, Young Pu, and Jonathan Shilling">
+
+	<!-- jquery -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<!-- angular -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" crossorigin="anonymous"></script>
+	<!-- custom scripts and stylesheets -->
+	<link rel="stylesheet" href="main.css">
+	<script type="text/javascript" src="main.js"></script>
+</head>
+
+<body ng-app="uvpApp">
+	<div class="page-header">
+		<nav class="navbar navbar-default">
+			<ul class="nav navbar-nav">
+				<li class="active"><a ui-sref="home">Home</a></li>
+				<li><a ui-sref="about-us">About Us</a></li>
+				<li><a ui-sref="our-mission">Our Mission</a></li>
+				<li><a ui-sref="support-us">Support Us</a></li>
+			</ul>
+		</nav>
+	</div>
+	<!-- html templates will be inserted here -->
+	<div ui-view><div>
+
+	<footer>
+
+	</footer>
+</body>
+</html>
