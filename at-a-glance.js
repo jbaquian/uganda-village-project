@@ -1,4 +1,6 @@
+
 var dat;
+
 d3.json('gho-data.json', function(error, data) {
 	var labelVar = 'description'
 	var varNames = d3.keys(data[3])
@@ -63,9 +65,11 @@ dat = data;
 		//sets the scales
 		// var setScales = function(seriesData){
 			//xScale
+
 			var x = d3.scale.linear()
 				.domain([2002, 2015])
 				.range([0, width])
+
 
 			//yScale
 			// var min = d3.min(seriesData, function (c) { 
@@ -77,9 +81,11 @@ dat = data;
 		    // console.log(min)
 		    // console.log(max)
 
+
 		    var y = d3.scale.log()
 		    	//.domain([min, max])
 		    	.range([height, 0])
+
 
 	    	//x.domain(data.map(function (d) { return d.quarter; }));
 	        y.domain([
@@ -99,7 +105,9 @@ dat = data;
 
 		var line = d3.svg.line()
           .interpolate("cardinal")
+
           .x(function (d) { return x(d.key) })
+
           .y(function (d) { return y(d.value); })
 
 		var series = svg.selectAll(".series")
@@ -135,4 +143,8 @@ dat = data;
 		// 		.call(setLines)
 		// }
 		// draw(seriesData)
+
 })
+
+
+
