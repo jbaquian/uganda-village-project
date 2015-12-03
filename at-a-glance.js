@@ -1,22 +1,13 @@
-var dat;
 d3.json('gho-data.json', function(error, data) {
-	var labelVar = 'description'
-	var varNames = d3.keys(data[3])
-		.filter(function (key) {return key !== labelVar})
+	var xScale;
+	var yScale;
 
-		console.log("varnames", varNames)
-		console.log("data", data)
-	//color.domain(varNames)
+	console.log("data", data)
 
-	// var filtered = data.map(function(obj) {
-	// 	Object.keys(obj).forEach(function (key) {
-	// 		if(key === 'description'){
-	// 			console.log(key)
-	// 			key = null
-	// 		}	
-	// 	})
-	// })
-dat = data;
+	//process given data into usable format
+	data = [
+		data[7]
+	]
 	var seriesData = data.map(function (line) {
 		return {
 			values: d3.entries(line).filter(function(d) {
@@ -24,35 +15,25 @@ dat = data;
 			})
 		}
 	})
-	// var seriesData = varNames.map(function (name) {
-	// 	return {
-	// 		name: name,
-	// 		values: data.map(function (d) {
-	// 			return {name: name, label: d[labelVar], value: +d[name]}
-	// 		})
-	// 	}
-	// })
 
 	console.log("seriesdata", seriesData)
 
-
-
 	var svg = d3.select('#vis')
 		.append('svg')
-		.attr('height', 400)
-		.attr('width', 400)
+		.attr('height', 800)
+		.attr('width', 800)
 
 		//margin
 		var margin = {
-			left: 70,
+			left: 100,
 			bottom: 100,
 			top:50,
 			right:50
 		}
 
 		//chart height and width
-		var height = 400 - margin.bottom - margin.top
-		var width = 400 - margin.left - margin.right
+		var height = 800 - margin.bottom - margin.top
+		var width = 800 - margin.left - margin.right
 
 		//positions the g element so it doesn't overlap the scales
 		var g = svg.append('g')
@@ -61,78 +42,78 @@ dat = data;
 			.attr('width', width)
 
 		//sets the scales
-		// var setScales = function(seriesData){
+		var setScales = function(seriesData){
 			//xScale
-			var x = d3.scale.linear()
+			xScale = d3.scale.linear()
 				.domain([2002, 2015])
 				.range([0, width])
 
 			//yScale
-			// var min = d3.min(seriesData, function (c) { 
-		 //      return d3.min(c.values, function (d) { return d.value })
-		 //    })
-		 //    var max = d3.max(seriesData, function (c) { 
-		 //      return d3.max(c.values, function (d) { return d.value })
-		 //    })
-		    // console.log(min)
-		    // console.log(max)
-
-		    var y = d3.scale.log()
-		    	//.domain([min, max])
+		    yScale = d3.scale.linear()
+			    .domain([
+			      d3.min(seriesData, function (c) { 
+			        return d3.min(c.values, function (d) { return d.value })
+			      }),
+			      d3.max(seriesData, function (c) { 
+			        return d3.max(c.values, function (d) { return d.value })
+			      })
+			    ])
 		    	.range([height, 0])
+		}
+		setScales(seriesData)
 
-	    	//x.domain(data.map(function (d) { return d.quarter; }));
-	        y.domain([
-	          d3.min(seriesData, function (c) { 
-	            return d3.min(c.values, function (d) { return d.value; });
-	          }),
-	          d3.max(seriesData, function (c) { 
-	            return d3.max(c.values, function (d) { return d.value; });
-	          })
-	        ]);
+		// Define x axis using d3.svg.axis(), assigning the scale as the xScale
+		var xAxis = d3.svg.axis()
+					.scale(xScale)
+					.orient('bottom')
+					.tickFormat(d3.format("d"))
 
-			// var yScale = d3.scale.linear()
-			// 	.domain([min, max / 1000])
-			// 	.range([0, height])
-		// }
-		// setScales(seriesData)
+		// Define y axis using d3.svg.axis(), assigning the scale as the yScale
+		var yAxis = d3.svg.axis()
+					.scale(yScale)
+					.orient('left')
 
-		var line = d3.svg.line()
-          .interpolate("cardinal")
-          .x(function (d) { return x(d.key) })
-          .y(function (d) { return y(d.value); })
+		// Append x axis to your SVG, specifying the 'transform' attribute to position it
+		svg.append('g').call(xAxis)
+			.attr('transform', 'translate(' + margin.left + ',' + (height + margin.top) + ')')
+			.attr('class', 'axis')
+		
+		// Append y axis to your SVG, specifying the 'transform' attribute to position it
+		svg.append('g')
+			.attr('class', 'axis').call(yAxis)
+			.attr('transform', 'translate(' + margin.left + ',' + (margin.top) + ')')
 
-		var series = svg.selectAll(".series")
-		    .data(seriesData)
-		  .enter().append("g")
-		    .attr("class", "series");
+		// Add a title g for the y axis
+		svg.append('text')
+			.attr('transform', 'translate(' + (margin.left - 80) + ',' + (margin.top + height - height / 6) + ') rotate(-90)')
+			.attr('class', 'title')
+			.text(data[0].description)
 
-		series.append("path")
-		  .attr("class", "line")
-		  .attr("d", function (d) { return line(d.values); })
-		  .style("stroke", "red")
-		  .style("stroke-width", "4px")
-		  .style("fill", "none");
+		//draws the lines on the chart
+		var draw = function(seriesData) {
+			setScales(seriesData)
+			var line = d3.svg.line()
+	          .interpolate("cardinal")
+	          .x(function (d) { return xScale(d.key) })
+	          .y(function (d) { return yScale(d.value) })
+
+			var series = svg.selectAll(".series")
+			    .data(seriesData)
+			  	.enter().append("g")
+			    	.attr("class", "series")
+			    	.attr('transform', 'translate(' +  margin.left + ',' + margin.top + ')')
+			    	.attr('height', height)
+					.attr('width', width)
 
 
+    		series.append("path")
+				.attr("class", "line")
+				.attr("d", function (d) { return line(d.values) })
+				.style("stroke", "red")
+				.style("stroke-width", "4px")
+				.style("fill", "none")
+		}
 
-		// //positions the lines
-		// var setLines = function(line) {
-		// 	line.attr("d", function (d) { return d.values })
-		// 		.attr("stroke", '#008080')
-		// 		.attr("stroke-width", "4px")
-		// 		.attr("fill", "none");
-		// }
-
-		// //draws the lines on the chart
-		// var draw = function(seriesData) {
-		// 	setScales(seriesData)
-
-		// 	var lines = g.selectAll('path')
-		// 		.data(seriesData)
-		// 		.enter()
-		// 		.append('path')
-		// 		.call(setLines)
-		// }
-		// draw(seriesData)
+		//draw chart
+		draw(seriesData)
 })
