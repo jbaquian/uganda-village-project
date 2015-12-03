@@ -1,22 +1,27 @@
+var dat;
 d3.json('gho-data.json', function(error, data) {
 	var labelVar = 'description'
 	var varNames = d3.keys(data[3])
 		.filter(function (key) {return key !== labelVar})
 
 		console.log("varnames", varNames)
+		console.log("data", data)
 	//color.domain(varNames)
 
-	var filtered = data.map(function(obj) {
-		Object.keys(obj).forEach(function (key) {
-			if(key === 'description'){
-				console.log(key)
-				key = null
-			}	
-		})
-	})
-	var seriesData = filtered.map(function (line) {
+	// var filtered = data.map(function(obj) {
+	// 	Object.keys(obj).forEach(function (key) {
+	// 		if(key === 'description'){
+	// 			console.log(key)
+	// 			key = null
+	// 		}	
+	// 	})
+	// })
+dat = data;
+	var seriesData = data.map(function (line) {
 		return {
-			values: d3.entries(line)
+			values: d3.entries(line).filter(function(d) {
+				return d.key != 'description'
+			})
 		}
 	})
 	// var seriesData = varNames.map(function (name) {
@@ -58,8 +63,9 @@ d3.json('gho-data.json', function(error, data) {
 		//sets the scales
 		// var setScales = function(seriesData){
 			//xScale
-			var x = d3.scale.ordinal()
-				.rangeRoundBands([0, width], .1)
+			var x = d3.scale.linear()
+				.domain([2002, 2015])
+				.range([0, width])
 
 			//yScale
 			// var min = d3.min(seriesData, function (c) { 
@@ -71,8 +77,9 @@ d3.json('gho-data.json', function(error, data) {
 		    // console.log(min)
 		    // console.log(max)
 
-		    var y = d3.scale.linear()
-		    	.rangeRound([height, 0])
+		    var y = d3.scale.log()
+		    	//.domain([min, max])
+		    	.range([height, 0])
 
 	    	//x.domain(data.map(function (d) { return d.quarter; }));
 	        y.domain([
@@ -92,7 +99,7 @@ d3.json('gho-data.json', function(error, data) {
 
 		var line = d3.svg.line()
           .interpolate("cardinal")
-          //.x(function (d) { return x(d.label) + x.rangeBand() / 2; })
+          .x(function (d) { return x(d.key) })
           .y(function (d) { return y(d.value); })
 
 		var series = svg.selectAll(".series")
