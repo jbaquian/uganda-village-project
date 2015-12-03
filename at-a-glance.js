@@ -3,18 +3,24 @@ d3.json('gho-data.json', function(error, data) {
 	var varNames = d3.keys(data[3])
 		.filter(function (key) {return key !== labelVar})
 
+		console.log("varnames", varNames)
 	//color.domain(varNames)
 
-	var seriesData = varNames.map(function (name) {
+	var seriesData = data.map(function (line) {
 		return {
-			name: name,
-			values: data.map(function (d) {
-				return {name: name, label: d[labelVar], value: +d[name]}
-			})
+			values: d3.entries(line)
 		}
 	})
+	// var seriesData = varNames.map(function (name) {
+	// 	return {
+	// 		name: name,
+	// 		values: data.map(function (d) {
+	// 			return {name: name, label: d[labelVar], value: +d[name]}
+	// 		})
+	// 	}
+	// })
 
-	console.log(seriesData)
+	console.log("seriesdata", seriesData)
 
 
 
@@ -54,7 +60,6 @@ d3.json('gho-data.json', function(error, data) {
 		 //    var max = d3.max(seriesData, function (c) { 
 		 //      return d3.max(c.values, function (d) { return d.value })
 		 //    })
-		    console.log('pudding')
 		    // console.log(min)
 		    // console.log(max)
 
@@ -89,8 +94,8 @@ d3.json('gho-data.json', function(error, data) {
 
 		series.append("path")
 		  .attr("class", "line")
-		  .attr("d", function (d) { console.log(d.values); return line(d.values); })
-		  .style("stroke", function (d) { return color(d.name); })
+		  .attr("d", function (d) { return line(d.values); })
+		  .style("stroke", "red")
 		  .style("stroke-width", "4px")
 		  .style("fill", "none");
 
