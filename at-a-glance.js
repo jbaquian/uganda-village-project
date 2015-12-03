@@ -6,7 +6,15 @@ d3.json('gho-data.json', function(error, data) {
 		console.log("varnames", varNames)
 	//color.domain(varNames)
 
-	var seriesData = data.map(function (line) {
+	var filtered = data.map(function(obj) {
+		Object.keys(obj).forEach(function (key) {
+			if(key === 'description'){
+				console.log(key)
+				key = null
+			}	
+		})
+	})
+	var seriesData = filtered.map(function (line) {
 		return {
 			values: d3.entries(line)
 		}
@@ -66,7 +74,7 @@ d3.json('gho-data.json', function(error, data) {
 		    var y = d3.scale.linear()
 		    	.rangeRound([height, 0])
 
-	    	x.domain(data.map(function (d) { return d.quarter; }));
+	    	//x.domain(data.map(function (d) { return d.quarter; }));
 	        y.domain([
 	          d3.min(seriesData, function (c) { 
 	            return d3.min(c.values, function (d) { return d.value; });
@@ -84,7 +92,7 @@ d3.json('gho-data.json', function(error, data) {
 
 		var line = d3.svg.line()
           .interpolate("cardinal")
-          .x(function (d) { return x(d.label) + x.rangeBand() / 2; })
+          //.x(function (d) { return x(d.label) + x.rangeBand() / 2; })
           .y(function (d) { return y(d.value); })
 
 		var series = svg.selectAll(".series")
