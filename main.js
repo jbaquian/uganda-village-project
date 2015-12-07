@@ -65,17 +65,17 @@ uvpApp.controller('d3', function($scope, $firebaseArray, $firebaseObject) {
 		},
 
 		link:function(scope,elem,attrs){
-			console.log(scope.data)
-			//d3.json('gho-data.json', function(error, data) {
+			//console.log(scope.data)
+			d3.json('gho-data.json', function(error, data) {
 				var xScale;
 				var yScale;
 
 				//console.log("data", data)
 
 				//process given data into usable format
-				console.log('data[0]', scope.data.$id(0))
+				//console.log('data[0]', scope.data.$id(0))
 				data = [
-					scope.data[0]
+					data[0]
 				]
 				console.log('data', data)
 				var seriesData = data.map(function (line) {
@@ -188,7 +188,26 @@ uvpApp.controller('d3', function($scope, $firebaseArray, $firebaseObject) {
 
 					//draw chart
 					draw(seriesData)
-			//})
+			})
+		}
+	}
+})
+
+//directive for a leaflet map
+.directive('leafletMap', function() {
+	return {
+		restrict: 'E',
+
+		link:function(element,attrs) {
+			//make map div
+			var mapDiv = $('<div></div>')
+			mapDiv.css('height', 180)
+			$(element).append(mapDiv)
+
+			//initialize map
+			var map = L.map('mapDiv').setView([51.505, -0.09], 13)
+
+
 		}
 	}
 })
