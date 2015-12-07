@@ -1,4 +1,7 @@
-var uvpApp = angular.module('uvpApp', ['ui.router'])
+//initiate firebase
+var fire = new Firebase("https://ugandavillageproject.firebaseio.com/")
+
+var uvpApp = angular.module('uvpApp', ['ui.router', 'firebase'])
 
 //configure states and controllers
 uvpApp.config(function($stateProvider) {
@@ -43,12 +46,16 @@ uvpApp.controller('SupportController', function($scope) {
 })
 
 //controller for d3 visualization
-uvpApp.controller('d3', function($scope) {
-	$scope.data = data
+uvpApp.controller('d3', function($scope, $firebaseArray, $firebaseObject) {
+	var ref = fire.child('gho-data')
+		$scope.data = $firebaseArray(ref)
+		//$scope.data = "pudding"
+		//console.log($scope.data)
 })
 
 //'at-a-glance' directive for d3 chart
-.directive('at-a-glance', function($filter, $scope) {
+.directive('lineChart', function($filter) {
+	console.log('entered directive')
 	return {
 		restrict:'E',
 
@@ -58,81 +65,130 @@ uvpApp.controller('d3', function($scope) {
 		},
 
 		link:function(scope,elem,attrs){
-			//wrapper element the chart will go in
-			wrapper = d3.select(elem[0])
+			console.log(scope.data)
+			//d3.json('gho-data.json', function(error, data) {
+				var xScale;
+				var yScale;
 
-			var xScale;
-			var yScale;
-			var svg = wrapper.append('svg')
-				.attr('height', 400)
-				.attr('width', 400)
+				//console.log("data", data)
 
-				//margin
-				var margin = {
-					left: 70,
-					bottom: 100,
-					top:50,
-					right:50
-				}
+				//process given data into usable format
+				console.log('data[0]', scope.data.$id(0))
+				data = [
+					scope.data[0]
+				]
+				console.log('data', data)
+				var seriesData = data.map(function (line) {
+					return {
+						values: d3.entries(line).filter(function(d) {
+							return d.key != 'description'
+						})
+					}
+				})
 
-				//chart height and width
-				var height = 400 - margin.bottom - margin.top
-				var width = 400 - margin-left - margin.right
+				console.log("seriesdata", seriesData)
 
-				//sets the scales
-				var setScales = function(){
-					//xScale
+				var wrapper = d3.select(elem[0])
 
-					//yScale
+				var svg = wrapper
+					.append('svg')
+					.attr('height', 800)
+					.attr('width', 800)
 
-				}
+					//margin
+					var margin = {
+						left: 100,
+						bottom: 100,
+						top:50,
+						right:50
+					}
 
-				//initiate scale variables
-				setScales()
+					//chart height and width
+					var height = 800 - margin.bottom - margin.top
+					var width = 800 - margin.left - margin.right
 
-				//positions paths
-				var setPaths = function(path) {
+					//positions the g element so it doesn't overlap the scales
+					var g = svg.append('g')
+						.attr('transform', 'translate(' +  margin.left + ',' + margin.top + ')')
+						.attr('height', height)
+						.attr('width', width)
 
-				}
+					//sets the scales
+					var setScales = function(seriesData){
+						//xScale
+						xScale = d3.scale.linear()
+							.domain([2002, 2015])
+							.range([0, width])
 
-			// Define x axis
-			var xAxis = d3.svg.axis()
-						.scale(xScale)
-						.orient('bottom')
+						//yScale
+					    yScale = d3.scale.linear()
+						    .domain([
+						      d3.min(seriesData, function (c) { 
+						        return d3.min(c.values, function (d) { return d.value })
+						      }),
+						      d3.max(seriesData, function (c) { 
+						        return d3.max(c.values, function (d) { return d.value })
+						      })
+						    ])
+					    	.range([height, 0])
+					}
+					setScales(seriesData)
 
-			// Define y axis
-			var yAxis = d3.svg.axis()
-						.scale(yScale)
-						.orient('left')
+					// Define x axis using d3.svg.axis(), assigning the scale as the xScale
+					var xAxis = d3.svg.axis()
+								.scale(xScale)
+								.orient('bottom')
+								.tickFormat(d3.format("d"))
 
-			// Append x axis
-			svg.append(svg).call(xAxis)
-				.attr('transform', 'translate(' + margin.left + ',' + (height + margin.top) + ')')
-				.attr('class', 'axis')
-			
-			svg.append(svg)
-				.attr('class', 'axis').call(yAxis)
-				.attr('transform', 'translate(' + margin.left + ',' + (margin.top) + ')')
+					// Define y axis using d3.svg.axis(), assigning the scale as the yScale
+					var yAxis = d3.svg.axis()
+								.scale(yScale)
+								.orient('left')
 
-			// Write a reusable drawing function for circles
-			var draw = function() {
-				// Filter down your data based on your search
-				//scope.filteredData = $filter('filter')(scope.data, scope.search);
-				
-				// Set Scales
-				setScales()
-				
-				// Use the .enter() method to get your entering elements, and then position them using your positioning function
-				circles.enter().append('circle').call(setPaths)
-				  
-				// Use the .exit() and .remove() methods to remove elements that are no longer in the data
-				circles.exit().remove()
-			  
-				// Select all circle elements within your g and transition their position using your positioning function
-				g.selectAll('circle').transition().duration(1500).call(circleFunc)     
-			
-			}
-			draw()
+					// Append x axis to your SVG, specifying the 'transform' attribute to position it
+					svg.append('g').call(xAxis)
+						.attr('transform', 'translate(' + margin.left + ',' + (height + margin.top) + ')')
+						.attr('class', 'axis')
+					
+					// Append y axis to your SVG, specifying the 'transform' attribute to position it
+					svg.append('g')
+						.attr('class', 'axis').call(yAxis)
+						.attr('transform', 'translate(' + margin.left + ',' + (margin.top) + ')')
+
+					// Add a title g for the y axis
+					svg.append('text')
+						.attr('transform', 'translate(' + (margin.left - 80) + ',' + (margin.top + height - height / 6) + ') rotate(-90)')
+						.attr('class', 'title')
+						.text(data[0].description)
+
+					//draws the lines on the chart
+					var draw = function(seriesData) {
+						setScales(seriesData)
+						var line = d3.svg.line()
+				          .interpolate("cardinal")
+				          .x(function (d) { return xScale(d.key) })
+				          .y(function (d) { return yScale(d.value) })
+
+						var series = svg.selectAll(".series")
+						    .data(seriesData)
+						  	.enter().append("g")
+						    	.attr("class", "series")
+						    	.attr('transform', 'translate(' +  margin.left + ',' + margin.top + ')')
+						    	.attr('height', height)
+								.attr('width', width)
+
+
+			    		series.append("path")
+							.attr("class", "line")
+							.attr("d", function (d) { return line(d.values) })
+							.style("stroke", "red")
+							.style("stroke-width", "4px")
+							.style("fill", "none")
+					}
+
+					//draw chart
+					draw(seriesData)
+			//})
 		}
 	}
 })
