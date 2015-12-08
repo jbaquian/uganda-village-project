@@ -58,7 +58,8 @@ uvpApp.controller('d3', function($scope, $firebaseArray, $firebaseObject) {
 
 		//define scope variables
 		scope:{
-			data:'='
+			data:'=',
+			chartheight:'@'
 		},
 
 		link:function(scope,elem,attrs){
@@ -77,13 +78,15 @@ uvpApp.controller('d3', function($scope, $firebaseArray, $firebaseObject) {
 					})
 				}
 			})
+			var chartHeight = scope.chartheight
+			var chartWidth = chartHeight
 
 			//get wrapper element and append svg for chart
 			var wrapper = d3.select(elem[0])
 			var svg = wrapper
 				.append('svg')
-				.attr('height', 800)
-				.attr('width', 800)
+				.attr('height', chartHeight)
+				.attr('width', chartWidth)
 
 			//margin
 			var margin = {
@@ -94,8 +97,8 @@ uvpApp.controller('d3', function($scope, $firebaseArray, $firebaseObject) {
 			}
 
 			//chart height and width
-			var height = 800 - margin.bottom - margin.top
-			var width = 800 - margin.left - margin.right
+			var height = chartHeight - margin.bottom - margin.top
+			var width = chartWidth - margin.left - margin.right
 
 			//positions the g element so it doesn't overlap the scales
 			var g = svg.append('g')
@@ -129,25 +132,29 @@ uvpApp.controller('d3', function($scope, $firebaseArray, $firebaseObject) {
 						.scale(xScale)
 						.orient('bottom')
 						.tickFormat(d3.format("d"))
+						.ticks(4)
 
 			// Define y axis using d3.svg.axis(), assigning the scale as the yScale
 			var yAxis = d3.svg.axis()
 						.scale(yScale)
 						.orient('left')
+						.ticks(8)
 
 			// Append x axis to your SVG, specifying the 'transform' attribute to position it
-			svg.append('g').call(xAxis)
+			svg.append('g')
+				.call(xAxis)
 				.attr('transform', 'translate(' + margin.left + ',' + (height + margin.top) + ')')
 				.attr('class', 'axis')
 			
 			// Append y axis to your SVG, specifying the 'transform' attribute to position it
 			svg.append('g')
-				.attr('class', 'axis').call(yAxis)
+				.attr('class', 'axis')
+				.call(yAxis)
 				.attr('transform', 'translate(' + margin.left + ',' + (margin.top) + ')')
 
 			// Add a title g for the y axis
 			svg.append('text')
-				.attr('transform', 'translate(' + (margin.left - 80) + ',' + (margin.top + height - height / 6) + ') rotate(-90)')
+				.attr('transform', 'translate(' + (margin.left - 80) + ',' + (margin.top + height) + ') rotate(-90)')
 				.attr('class', 'title')
 				.text(data[0].description)
 
@@ -171,7 +178,7 @@ uvpApp.controller('d3', function($scope, $firebaseArray, $firebaseObject) {
 	    		series.append("path")
 					.attr("class", "line")
 					.attr("d", function (d) { return line(d.values) })
-					.style("stroke", "red")
+					.style("stroke", "blue")
 					.style("stroke-width", "4px")
 					.style("fill", "none")
 			}
