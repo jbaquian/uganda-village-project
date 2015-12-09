@@ -1,38 +1,22 @@
 {
-	"aboutUVP":"https://www.youtube.com/watch?v=LQ2vKw75oCk",
-	"what-we-do":{
-		"description":"With the help of our partners in the field, Uganda Village Project (UVP) has identified the following core programmatic areas of focus.",
-		"healthy-villages":{
-			"description":"“Healthy Villages” is an innovative, grassroots approach to addressing rural healthcare and public health in Uganda. Its goal is to improve the provision of healthcare and of preventative health education to underserved populations across rural Iganga District.  Healthy Villages targets the primary health risks of the region at a village-by-village level, in partnership with the District Health Office of Iganga, the Sub-County officials, and the local Health Center staff. We launched Healthy Villages in five villages during the summer of 2009. To choose which villages to work in, we partnered with the District Health Office to identify communities that fell into the bottom quartile in sanitation and access to clean water in the district. We use this as our proxy for the most underserved villages in Iganga District, and continue to expand each year in the 70 identified villages. We work in each village for three years, building capacity within the community before acknowledging their accomplishments with a graduation ceremony.",
-			"villages":[
-				{
-					"name":"Kazigo A",
-					"content":"Partnering with the Uganda Red Cross and university students to improve health",
-					"link":"http://www.ugandavillageproject.org/kazigo-a"
-				},
-				{
-					"name":"Kidaago B",
-					"content":"Addressing malaria in the village",
-					"link":"http://www.ugandavillageproject.org/kidaago-b"
-				},
-				{
-					"name":"Namunkesu",
-					"content":"building on the success of a shallow well project",
-					"link":"http://www.ugandavillageproject.org/namunkesu"
-				}
-			]
-		},
-		"safe-water":{
-
-		},
-		"obstetric-fistula":{
-
-		}
-	},
-	"where-we-work":{
-		"description":"With a population approaching 700,000, Iganga District is one of the most densely populated of Uganda.  In spite of that fact, Iganga District boasts only one town, Iganga town, which for a long time was the largest in the country without running water or public sewage systems. Located in the middle of the Busoga region of the Basoga people, Iganga District is one of the more marginalized of the country and as a result it is among the poorest. Lusoga, a Bantu language closely related to the national language, Luganda, is what most people in the region speak. Those who attend formal schooling, particularly secondary school, also learn English as well as formal Luganda. The rural economy of Iganga depends heavily on maize, potatoes, and sugar cane.   "
-	},
-	"news":[
+	"aboutUVP": "https://www.youtube.com/watch?v=LQ2vKw75oCk",
+	"what-we-do": "With the help of our partners in the field, Uganda Village Project (UVP) has identified the following core programmatic areas of focus.",
+	"healthy-villages": "“Healthy Villages” is an innovative, grassroots approach to addressing rural healthcare and public health in Uganda. Its goal is to improve the provision of healthcare and of preventative health education to underserved populations across rural Iganga District.  Healthy Villages targets the primary health risks of the region at a village-by-village level, in partnership with the District Health Office of Iganga, the Sub-County officials, and the local Health Center staff. We launched Healthy Villages in five villages during the summer of 2009. To choose which villages to work in, we partnered with the District Health Office to identify communities that fell into the bottom quartile in sanitation and access to clean water in the district. We use this as our proxy for the most underserved villages in Iganga District, and continue to expand each year in the 70 identified villages. We work in each village for three years, building capacity within the community before acknowledging their accomplishments with a graduation ceremony.",
+	"villages": [{
+		"name": "Kazigo A",
+		"content": "Partnering with the Uganda Red Cross and university students to improve health",
+		"link": "http://www.ugandavillageproject.org/kazigo-a"
+	}, {
+		"name": "Kidaago B",
+		"content": "Addressing malaria in the village",
+		"link": "http://www.ugandavillageproject.org/kidaago-b"
+	}, {
+		"name": "Namunkesu",
+		"content": "building on the success of a shallow well project",
+		"link": "http://www.ugandavillageproject.org/namunkesu"
+	}],
+	"where-we-work": "With a population approaching 700,000, Iganga District is one of the most densely populated of Uganda.  In spite of that fact, Iganga District boasts only one town, Iganga town, which for a long time was the largest in the country without running water or public sewage systems. Located in the middle of the Busoga region of the Basoga people, Iganga District is one of the more marginalized of the country and as a result it is among the poorest. Lusoga, a Bantu language closely related to the national language, Luganda, is what most people in the region speak. Those who attend formal schooling, particularly secondary school, also learn English as well as formal Luganda. The rural economy of Iganga depends heavily on maize, potatoes, and sugar cane.",
+	"news": [
 		"http://www.ugandavillageproject.org/wp-content/uploads/2014/05/IPS_Fistula_2013.pdf",
 		"http://www.ugandavillageproject.org/wp-content/uploads/2014/05/MailGuardian_fistula_2013.pdf",
 		"http://www.ugandavillageproject.org/wp-content/uploads/2014/05/Yale-Journal-of-Biology-and-Medicine_Fistula-Will-Murk_2009.pdf",
@@ -45,380 +29,297 @@
 		"http://www.ugandavillageproject.org/wp-content/uploads/2014/05/UW-Today_Meg-Melchoirs-pharmacy_2009.pdf",
 		"http://www.ugandavillageproject.org/wp-content/uploads/2014/05/Xavier-University_Ben-Krause_2007.pdf"
 	],
-	"contact":{
-		"facebook":"https://www.facebook.com/pages/Uganda-Village-Project/251880514830749",
-		"email":"info@ugandavillageproject.org",
-		"address-usa":"	Uganda Village Project
-										340 S Lemon Ave #8979
-										Walnut, CA 91789 USA",
-		"address-intern-payment":"								
-										Uganda Village Project
-										c/o Shannon Goggin
-										1418 Union Ave
-										San Francisco, CA 94109",
-		"address-uganda":"Box 2
-											Iganga Town, Iganga UGANDA",
-		"address-uganda-physical":"	Plot 12 Moses Kintu Road
-																Iganga Town, Iganga UGANDA"
-	},
-	"reports":{
-		"description":"Uganda Village Project’s works on a year-round basis with Ugandan partners to support projects in healthcare (with special attention to HIV/AIDS, malaria, hygiene and sanitation, family planning, and obstetric fistula), and clean water. To find out more about our projects and finances, please review our reports below. You can find our Forms 990 filed with the IRS and more information about our organization and finances on GuideStar.",
-		"links":[
-			"reports/UVP-Annual-Report-2014-for-printing-8.5x141.pdf",
-			"reports/Annual-report-2013.pdf",
-			"reports/2012-UVP-annual-report.pdf",
-			"reports/UVP_AnnualReport2011_web.pdf",
-			"reports/2010-annual-report-final-web.pdf",
-			"reports/2009_report.pdf"
-		],
-		"financial-statements":[
-			"reports/UVP-Financial-Statement-2014.pdf",
-			"reports/UVP-2013-financial-statement.pdf",
-			"reports/UVP_Financial_Statement_2012.pdf",
-			"reports/2008_Finances.pdf",
-			"reports/2007_finances.pdf",
-			"reports/2006_Finances.pdf",
-			"reports/2005_Finances.pdf",
-			"reports/",
-			"reports/",
-			"reports/"
-		]
-	},
-	"partners":{
-		"local":[
-			{
-				"name":"St. Mary’s Shelter of Hope",
-				"description":"Our partnership with St. Mary’s brings HIV testing and counseling to the most rural and remote communities in Iganga District, where access to such services is typically out of reach.",
-				"link":null
-			},
-			{
-				"name":"District Health Office of Iganga District",
-				"description":"The Healthy Villages program model complements the work of Iganga’s District Health Office by promoting the work of Village Health Teams (VHTs). VHTs are an official part of the Ugandan Ministry of Health structure, and by working with them, we strengthen the systems already in place instead of creating new systems. We involve the government in all steps of our programming, from helping train and supervise the VHTs to visiting communities during sanitation campaigns, and we consider them an important partner.",
-				"link":"http://www.iganga.go.ug/"
-			},
-			{
-				"name":"Marie Stopes Uganda",
-				"description":"Marie Stopes is the largest sexual and reproductive health provider in Uganda. The organization has been a great support to UVP by donating condoms for distribution during HIV outreaches and attending graduation fairs and other events to provide additional reproductive health services.",
-				"link":"http://www.mariestopes.or.ug/"
-			},
-			{
-				"name":"District Water Office of Iganga District",
-				"description":"Our partnership with the District Water Office has allowed us to construct more than 65 wells, bringing safe water to the Iganga District’s neediest communities. The District Water Office provides technical expertise and parts, while the Uganda Village Project provides construction materials and collaborates with the community on educational workshops, well placement, and labor.",
-				"link":"http://www.iganga.go.ug/"
-			}
-		],
-		"global":[
-			{
-				"name":"Global Health Council",
-				"description":"The Global Health Council is the world’s largest membership alliance dedicated to saving lives by improving health throughout the world. The Council works to ensure that all who strive for improvement and equity in global health have the information and resources they need to succeed.",
-				"link":"http://www.globalhealth.org/"
-			},
-			{
-				"name":"Uganda Childbirth Injuries Fund",
-				"description":"UVP works closely with the Uganda Childbirth Injuries Fund (UCIF) to identify women suffering from fistula and bring them for surgery. UCIF sends surgeons from the UK three times a year to operate on up to 25 women per visit. They cover all of the costs of the surgery, allowing us to focus our resources on patient identification, transport, and food and care while in the hospital.",
-				"link":"http://ugandachildbirthinjuryfund.org/"
-			},
-			{
-				"name":"SeeYourImpact",
-				"description":"SeeYourImpact enables charitable organizations to show the connection of each donor’s gift to the actual end beneficiary in an authentic and transparent manner. They feature gifts for a variety of UVP programs including malaria, HIV, and obstetric fistula.",
-				"link":"http://uvp.seeyourimpact.org/"
-			},
-			{
-				"name":"The Fistula Foundation",
-				"description":"In 2013, the Fistula Foundation awarded a grant to Uganda Village Project to implement the Fistula Ambassador’s program. The Fistula Ambassadors are women who formerly suffered from fistula and now help educate and identify other women in their communities. The Fistula Foundation also supports our efforts to bring women for repair surgery.",
-				"link":"http://www.fistulafoundation.org/"
-			}
-		],
-		"related-organizations":[
-			{
-				"name":"Inter-Community Development Involvement",
-				"description":"ICODEI is part of the Village Projects – USA network with UVP under IFMSA-USA. This project runs in western Kenya.",
-				"link":"http://www.volunteerkenya.org/index.html"
-			},
-			{
-				"name":"Ghana Health and Education Initiative",
-				"description":"GHEI is part of the Village Projects – USA network with UVP under IFMSA-USA. This project works in Humjibre, Ghana in the Bibiani District.",
-				"link":"http://www.ghei.org/"
-			}
-		]
-	},
-	"people":{
-			"task-forces":{
-				"internship-committee":[
-					{
-						"name":"Angela Kraszewski",
-						"bio":"Angela served as an intern with UVP on the Nutrition and Sanitation Project Team in 2013. She is currently finishing her Master’s in Global Public Health from The George Washington University and is interning with the Latin American and Caribbean Regional Office of UNICEF in the Planning, Monitoring and Evaluation department. Before UVP, she worked on food safety regulations with the Center for Science in the Public Interest and hopes to pursue a career in food security and nutrition in the future.",
-						"avatar":"img/task-forces/angela_sm.jpg"
-					},
-					{
-						"name":"Chris Margono",
-						"bio":"Chris served as a Follow-up Team Member in summer 2013. He is interested in Global health, and was inspired to work in rural settings after his experience in Indonesia with the Critical Language Scholarship Program. Prior to UVP, Chris spent much of his time working with low-income youth through a grassroots organization called the K.I.D. Program. Chris currently works at the Institute for Health Metrics and Evaluation, hopes to enter medical school fall 2014, and has future plans to work in Indonesia.",
-						"avatar":"img/task-forces/chris_sm.jpg"
-					},
-					{
-						"name":"Manon Billaud",
-						"bio":"Manon was an international Launch Team intern in Buwoira in the summer of 2014. The summer before going to Uganda, Manon was a Global Health intern in Ghana with Global Brigades. Currently, Manon is in her junior year at UCLA. She is majoring in Political Science with a double minor in Public Health and French. After completing her bachelor’s degree, Manon hopes to attend graduate school to earn an MPH. She wants to pursue a career in which she is at the frontline of education and prevention programs that concern various public health issues, like safe water or sexually transmitted diseases, in rural populations.",
-						"avatar":"img/task-forces/manon_sm.png"
-					},
-					{
-						"name":"Greg Brown",
-						"bio":"Greg was an international intern in Bukaigo, a launch village, in the summer of 2013. Before going to Uganda, he spent one month in a rural mountain village in Tanzania through a program at the University of Michigan. There, Greg worked at three different centers: an orphanage, a boarding school for the blind, and a school for the mentally disabled. He recently graduated from the University of Michigan and is currently at work on a documentary about legendary film director Robert Altman, to be released in 2014. He hopes to attend grad school for film in the near future.",
-						"avatar":"img/task-forces/greg_sm.jpg"
-					},
-					{
-						"name":"Andrew Phinney",
-						"bio":"Andrew interned with UVP in the launch village of Kasambiika 2 in 2013. He graduated from the University of New Hampshire with a degree in medical microbiology in 2014 and currently helps to manage the internship program at the Clinton Foundation. Andrew is moving to Nepal in March 2015 with the Peace Corps to address food security concerns and community health programming.",
-						"avatar":"img/task-forces/andrew_sm.jpg"
-					},
-					{
-						"name":"Rachel Piontak",
-						"bio":"Rachel served on the Orphan Support Team in 2007 and from this experience, went on to pursue her Master’s in International Development from the University of Cape Town. Her research focused on mobile-based agricultural initiatives for small-scale farming in northern and western Uganda. She completed her graduate degree in 2012 and currently works as a program administrator for the American Indian College Fund in Denver, Colorado.",
-						"avatar":"img/task-forces/rachel_sm.jpg"
-					},
-					{
-						"name":"Ryan St. Pierre-Hetz",
-						"bio":"Ryan served as a Health Villages Follow up team member in 2012. He attended Northeastern University for undergraduate studies majoring in Neuroscience and International Affairs. He transferred to University of Florida for a combined B.S./M.D. degree in 2011 where he is currently a second year medical student. He is involved in clinical research aimed at improving outcomes in diabetic patient care. He is also the student director of a student lead medical service outreach facility Thailand. He plans to pursue a career in global health and primary care medicine.",
-						"avatar":"img/task-forces/ryan_sm.jpg"
-					},
-					{
-						"name":"Stephanie Banning",
-						"bio":"Stephanie, from Seattle, WA, was a 2013 intern in the launch village Kasambiika 1. She is a junior at Washington and Lee University in Lexington, Virginia and will graduate in 2015 with a major in Biology and minors in French and in Poverty and Human Capabilities Studies. She is planning to attend medical school after graduation to earn dual MD and MPH degrees with particular interest in women’s sexual and maternal health in developing countries.",
-						"avatar":"img/task-forces/stephanie_sm.jpg"
-					},
-					{
-						"name":"Tina Khiani",
-						"bio":"Tina graduated from the University of Southern California in 2013 with a double degree in Psychology and Global Medicine. She served as a UVP launch team leader in summer 2013. During her time in Los Angeles, Tina helped run medical camps in rural Mexico. She also traveled to India to examine the diverse healthcare system there and interview several doctors and hospital administration staff. Tina now lives in New York City and interns with Imani House, Inc. a Brooklyn-based nonprofit that has a maternal and child health clinic in Liberia. She also assists with schizophrenia research at Columbia University. Her career goal is to become a certified nurse midwife.",
-						"avatar":"img/task-forces/tina_sm.jpg"
-					},
-					{
-						"name":"Kyle Yoo",
-						"bio":"Kyle Yoo served as an intern with on the Monitoring & Evaluation Team in 2014. Before going to Uganda, Kyle studied anthropology and biology at the University of Chicago and had worked with a local federally qualified health center that provides primary care to underserved communities on the South Side of Chicago as an Operations intern. Now, he is continuing his education at Feinberg School of Medicine at Northwestern University to pursue his M.D. degree.",
-						"avatar":"img/task-forces/kyle_sm.jpg"
-					}
-				],
-				"fundraising-committee":[
-					{
-						"name":"Emily Chuba",
-						"bio":"Emily has stayed in touch with UVP since volunteering with us in 2004 – she currently works as a rape crisis counselor and volunteers as a mentor for medically at risk refugee women. She has future plans to pursue her Master’s degree in Public Health.",
-						"avatar":"img/task-forces/emily_sm.jpg"
-					},
-					{
-						"name":"Nathan Tauger",
-						"bio":"Nathan served as a Healthy Villages intern in Kasambiika 1 during the summer of 2013. Nathan currently lives in southern West Virginia, where he serves as an AmeriCorps VISTA with the Rural Appalachian Improvement League. His main objective is to develop an AmeriCorps work program focused on skill acquisition and local agriculture. Nathan graduated from Vassar College in 2014 with a degree in Biology and is a 2013 Truman Scholar.",
-						"avatar":"img/task-forces/nathan.jpg"
-					}
-				],
-				"monitoring-committee":[
-					{
-						"name":"Leah Bevis",
-						"bio":"Leah graduated from Middlebury College with a major in Geography, and a minor in Economics. Raised in Hawaii, she has lived, worked and studied in Switzerland, England, Barcelona, Malawi and Uganda. She first volunteered in Uganda in 2006, conducting writing workshops with vulnerable youth. She returned to Uganda, on a Project for Peace grant from the Katherine Wasserman Davis Foundation, to work on an ethnographic radio story-telling project with youth. After a stint with the New Sudan Initiative in the USA, Leah returned to Uganda as UVP’s first Healthy Villages Program Coordinator. Leah is pursuing a PhD in Economic Development.",
-						"avatar":"img/task-forces/leah_sm.jpg"
-					},
-					{
-						"name":"Catherine Kirk",
-						"bio":"Cat served as a Healthy Villages team leader and Sujal Parikh Social Justice Research Fellow in summer 2011. In her fellowship with UVP, Cat studied the health needs and experiences of older adults living in Iganga and presented her findings at the International Conference on Aging, Mobility, and Quality of Life. She graduated from the University of Michigan with a master’s in public health in 2012 where she specialized in global health and HIV/AIDS. Cat is currently a Program Manager at the François-Xavier Bagnoud Center for Health and Human Rights and is based in Rwanda.",
-						"avatar":"img/task-forces/catherine_sm.jpg"
-					},
-					{
-						"name":"Sonali Palchaudhuri",
-						"bio":"Sonali is a medical student at University of Michigan. She interned with UVP in 2009 where she focused on safe water and sanitation programs. She has a degree in biomechanical engineering from Harvard.",
-						"avatar":"img/task-forces/sonali_sm.jpg"
-					},
-					{
-						"name":"Ozge Tuncalp",
-						"bio":"Ozge is currently writing her dissertation proposal for her doctoral degree in public health at Hopkins, on maternal health in Ghana. She has been working with UVP with a focus on obstetric fistula issues since 2004.",
-						"avatar":"img/task-forces/ozge_sm.jpg"
-					},
-					{
-						"name":"Ce Zhang",
-						"bio":"Ce is a premedicine major in the Schreyer Honors College at Penn State University, and spent the summer of 2009 with UVP in Uganda. He has done research in collaboration with UVP on tippy taps for primary schools, and co-founded the initiative Tippy Taps for Africa.",
-						"avatar":"img/task-forces/ce_sm.jpg"
-					},
-					{
-						"name":"Julius Kirya",
-						"bio":"Julius has a degree in Statistics and major in Development Planning from Makerere University in Uganda. He worked with the Economic Policy Research Centre as a Research Assistant for a variety of surveys in collaboration with Uganda Bureau of Statistics, World Vision, Word Bank, and University of Oxford in the UK. He has experience in fieldwork surveys and development of tools and analysis with statistical software such as STATA, SPSS, EXCEL, EPI-data and ACCESS. During university, he volunteered at a nonprofit organization mobilizing youth to reduce teenage pregnancy and fight HIV prevalence. He was a Global Health Corps Fellow at UVP focusing on monitoring and evaluation from 2014-2015. He is currently working with Nurture Africa, a non-governmental organization as a Research, Monitoring and Evaluation Coordinator, with direct responsibility in supervision of all program areas in the Organization.",
-						"avatar":"img/task-forces/julius.jpg"
-					},
-					{
-						"name":"Orrin Tiberi",
-						"bio":"Orrin graduated in 2014 with a Master’s International in Public Health from the University of Pittsburgh with a concentration in behavioral and community health sciences. As part of his graduate school program, he spent two years in the Peace Corps in Ecuador where he planned health campaigns and informational sessions for students, and conducted research in sexual and reproductive health. Orrin spent 2014-2015 working with UVP as a Global Health Corps Fellow focusing on monitoring, evaluation, and research during which he helped in the data collection for an impact evaluation of the Healthy Villages Initiative. He is currently a ASPPH/CDC Allan Rosenfield Global Health Fellow working in the Monitoring and Evaluation, Strategic Planning team of the Center for Global Health at the CDC.",
-						"avatar":"img/task-forces/orrin_sm.jpg"
-					}
-				]
-			},
-			"staff":[
-				{
-						"name":"Leslie Stroud-Romero, MPA",
-						"title":"Executive Director",
-						"bio":"Leslie joined Uganda Village Project in 2013. She has a Master’s Degree in Public Administration and a Certificate in Nonprofit Management from the University of Washington. Leslie is originally from the Seattle area but currently living in Uganda. Before moving to Uganda she was employed at PATH, a global health nonprofit. At PATH she worked with individual and institutional fundraising as well as supporting the donor travel program. She is a returned Peace Corps Volunteer from Malawi and Uganda, where she built the capacity of community-based organizations and implemented several economic development and health projects for orphans and people living with HIV/AIDS.",
-						"avatar":"img/staff/leslie_sm.jpg"
-				},
-				{
-						"name":"Kelly Child",
-						"title":"Managing Director",
-						"bio":"Kelly Child earned a Bachelor of Arts in Communication from Hawai’i Pacific University. Having experiences in various industries has created opportunities for Kelly in procedural development and program implementation and management. She has worked in a variety of fields including software, after school programs, and building a fire station.",
-						"avatar":"img/staff/kelly_sm.jpg"
-				},
-				{
-						"name":"Patrick Tulibagenyi",
-						"title":"Assistant Director / Program Manager",
-						"bio":"Patrick has a diploma in social administration and project planning from the Institute of Business and Language Studies. He is currently studying towards a degree in mass communication at Busoga University. He has held a number of diverse jobs including manager of a radio station and secondary school teacher. Patrick has been responsible for coordination of all our shallow wells since 2008. He works with the community, the mason, the district water office and its engineers, the local government officials for the village, and our intern teams to ensure the success of each well construction project we undertake.",
-						"avatar":"img/staff/patrick_sm.jpg"
-				},
-				{
-						"name":"Maureen Nakalinzi",
-						"title":"Assistant Director / Program Manager",
-						"bio":"Maureen has worked with Uganda Village Project as a volunteer in the past on the HIV program, researching the supply chain and the distribution of ARTs, as well as working with health centers to develop resources. Maureen most recently worked for the Uganda Rural Fund in Masaka, where she has worked in a number of rural projects geared towards improving rural livelihoods. These projects included women’s empowerment, HIV/AIDS, safe water, a rural savings and credit scheme and child sponsorship.",
-						"avatar":"img/staff/maureen_sm.png"
-				},
-				{
-						"name":"Titus Obbo",
-						"title":"Program Coordinator",
-						"bio":"Titus is a graduate of Makerere University with a degree in Human Resource Management. He also holds a diploma in Secondary Education from Kyambogo University and a Certificate in officer’s administrative law from Law Development Center Makerere. He has experience as a classroom teacher and with community development and public health in Iganga District. He joined UVP in 2009 first as a volunteer and then coordinating the Mod-Pot and Dispenser project. He is currently pursuing further studies towards an MBA.",
-						"avatar":"img/staff/titus_sm.jpg"
-				},
-				{
-						"name":"Loy Tumusiime",
-						"title":"Program Coordinator:",
-						"bio":"Loy, one of UVP’s fistula success stories, is our Fistula coordinator. Able to speak to patients about the fears and realities surrounding the surgery, she is an inspiration for the possibilities of life after recovery.",
-						"avatar":"img/staff/loy_sm.jpg"
-				},
-				{
-						"name":"Ruth Kugumikuriza",
-						"title":"Monitoring and Evaluation Officer (Global Health Corps Fellow)",
-						"bio":"Ruth obtained a degree of BSc Education in Makerere University. She chose that career path because of her desire of teaching and capacity building. She later obtained an MSc in Environmental and Public Health at the University of Salford, UK. She has a great passion for community involvement and outreach, which was a central motivator to master in a course that would enhance her ability to reach the undeserved rural communities. Ruth has experience in various research skills, ranging from program planning, implementation, and evaluation as well as systematic analysis of various data. She gained this experience during her work as a research assistant with London School of Hygiene and Tropical Medicine and NARO, Tororo. As the M & E Officer, she currently handles all the monitoring and evaluation work load of the different programs in UVP.",
-						"avatar":"img/staff/ruth_sm.jpg"
-				},
-				{
-						"name":"Rachel Bridge",
-						"title":"Partnerships Officer (Global Health Corps Fellow)",
-						"bio":"Rachel obtained her BA in Anthropology and African & African American Studies at Washington University in St. Louis. There she fostered her passion for global health, social justice, and community engagement through a variety of programs and communities. Rachel’s experience as a Danforth Scholar and a Civic Scholar cultivated her commitment to global citizenship and community-based collaboration. She learned the power of partnership as a staff member of GlobeMed, a student-run, nonprofit organization dedicated to furthering the movement for global health equity. She served as Global Health University Coordinator and Co-President of her university’s chapter and interned with GlobeMed’s partner organization, Uganda Development and Health Associates (UDHA), to address gaps in youth sexual health education and child malnutrition in Iganga, Uganda. Rachel also spent a summer working with Partners in Health (PIH) to deepen and broaden the right to health movement through empowering grassroots community organizers. Rachel loves being outdoors, reading, exploring, and learning Lusoga from her patient UVP co-workers!",
-						"avatar":"img/staff/rachel_sm.jpg"
-				}
-			],
-			"executive":{
-				"founders":"Brent Anderson, Kirk Scirto, Alison Schroth Hayward",
-				"email":"info@ugandavillageproject.org",
-				"board":[
-					{
-						"name":"Alison Hayward, MD, MPH",
-						"title":"Chair of the Board",
-						"bio":"Alison works as an emergency medicine physician at Yale University School of Medicine/Yale New Haven Hospital in Connecticut. She has been involved in Uganda Village Project as co-founder since its inception in 2003 and served as director and assistant director from 2005 to 2013. She has also served as a member of the board of trustees of the International Federation of Medical Students’ Associations – USA.",
-						"avatar":"img/executive/alison_sm.jpg",
-						"email":"alison@ugandavillageproject.org"
-					},
-					{
-						"name":"Shannon Goggin",
-						"title":"Treasurer",
-						"bio":"Shannon got to know UVP when she visited Iganga in 2012 while working in Ethiopia on an agriculture development initiative. She currently works as a Product Manager at Zenefits in San Francisco. Before that, she worked as a strategy consultant with Monitor Deloitte and led a mission-driven business in Washington, DC, where she developed her passion for using market based solutions to effect positive social change. Shannon received her B.S.B.A in Marketing and English from Georgetown University.",
-						"avatar":"img/executive/Shannon-Crop.png",
-						"email":"shannon@ugandavillageproject.org"
-					},
-					{
-						"name":"Elizabeth Warren",
-						"title":"Internships Coordinator",
-						"bio":"Elizabeth is currently in the accelerated BSN-MSN program at the Johns Hopkins School of Nursing with a masters specialty in Public Health Nursing and Midwifery. She was a Healthy Villages intern with UVP in the summer of 2010 in the village of Nabukone. As an undergraduate at the University of Pennsylvania, she worked extensively with Engineers Without Borders, traveling to Cameroon and Guatemala to design and implement a clean water distribution system as well as a latrine construction project at several primary schools. After graduating, Elizabeth worked as the Clean Water and Public Health Education Program Manager for Hope for Haiti, a nonprofit based in Les Cayes, Haiti before starting nursing school in May.",
-						"avatar":"img/executive/elizabeth_sm.jpg",
-						"email":"elizabeth@ugandavillageproject.org"
-					},
-					{
-						"name":"Alicia Majeau",
-						"title":"Fundraising Chair",
-						"bio":"Alicia served as a Healthy Villages summer intern with UVP in 2011, and returned to Iganga District in the summer of 2012 as a team leader. Following her experiences with UVP, she went on to receive her Master’s of Science from Johns Hopkins’ Bloomberg School of Public Health. With a background in cell & molecular biology, Alicia’s interests lie in combining molecular approaches of disease control with real, hands-on public health intervention. She currently resides in Worcester, MA, and is professionally involved in the clinical aspect of health, working at UMASS Medical Center.",
-						"avatar":"img/executive/alicia_sm.jpg",
-						"email":"alicia@ugandavillageproject.org"
-					},
-					{
-						"name":"Tiffany Hsieh",
-						"title":"Marketing & Communications Chair",
-						"bio":"Tiffany became familiar with UVP’s work when she served as the Education Lead on a One Laptop Per Child project in the Busoga District of Uganda in 2009. Subsequently, she worked as the Executive Assistant to the CEO and COO at Africare, a nonprofit that directs health and HIV/AIDS, and water and sanitation projects across sub-Saharan Africa. She received her BA in Political Science and Public Policy from UC Berkeley and formerly worked as a special education teacher in Colorado Springs. Tiffany currently works as an education policy research analyst at SRI International in Washington DC.",
-						"avatar":"img/executive/tiffany_sm.jpg",
-						"email":"tiffany@ugandavillageproject.org"
-					},
-					{
-						"name":"Dick Schroth",
-						"title":"IT Officer",
-						"bio":"Dick is the founder and president of Schroth Systems Consulting, and has been developing custom database applications for the last 28 years. He graduated from Middlebury College with a degree in Economics in 1971. He lives with his wife, Linda in Connecticut and has three children (Alison, Jon and Brian), and three grandchildren (with another on the way). He has volunteered with Habitat for Humanity and Big Brothers, and spent a month in Iganga, Uganda in 2009 volunteering with UVP. When he is not working you will probably find him biking, hiking or playing tennis.",
-						"avatar":"img/executive/dick_sm.jpg",
-						"email":"dick@ugandavillageproject.org"
-					},
-					{
-						"name":"Kim Lomax, MPA",
-						"title":"Grants Committee Chair",
-						"bio":"Kim holds a Master of Public Administration degree with a focus on international public program management. Her professional experience includes writing grants, raising money for nonprofit organizations, developing public policy, and implementing marketing communications strategies. While working on her MPA, Kim developed a service learning program to match MPA students with nonprofits working in the area of international development. Kim currently runs her own business, handling the financial, operational, and marketing needs of a growing enterprise. She lives in Portland, Oregon.",
-						"avatar":"img/executive/kim_sm.png",
-						"email":"kim@ugandavillageproject.org"
-					},
-					{
-						"name":"Susan Agobia",
-						"title":"Member at Large",
-						"bio":"Susan is a graduate student from St. Francis Xavier University Canada and has a BA in Development Studies and Sociology. She currently lives in Kampala, Uganda but has a very international background. She has been involved in work with local orphanages in Kampala, worked on youth topics of sexual violence on campus in Nova Scotia Canada, and has previous exposure to issues related to HIV/AIDS. She is passionate about international development and would like to grow a career in the development field.",
-						"avatar":"img/executive/susan_sm.jpg",
-						"email":"susan@ugandavillageproject.org"
-					},
-					{
-						"name":"Shelley Buettner",
-						"title":"Member at Large",
-						"bio":"Shelley works as a Program Manager for a large non-profit healthcare organization in the Pacific NW where she focuses efforts on healthcare reform in primary care. She has extensive clinical expertise including healthcare IT and business consulting and has worked in numerous hospitals, clinics, and health-related nonprofit agencies over the past 18 years. Her education includes post-graduate cellular biology research at Creighton University and a Masters in Family Nurse Practice from Oregon Health & Sciences University. Shelley has a passion for finding innovative ways to collaborate with and empower others to live and play in a healthier world.",
-						"avatar":"img/executive/shelly_sm.jpg",
-						"email":"shelly@ugandavillageproject.org"
-					},
-					{
-						"name":"Anthony Bui, MPH",
-						"title":"Member at Large",
-						"bio":"Anthony served as a Healthy Villages team leader in 2009 and helped with the conception of the Village Health Teams. He is currently a medical student at the David Geffen School of Medicine at UCLA. Prior to UCLA, Anthony worked as a research fellow at the Institute for Health Metrics and Evaluation (IHME) in Seattle and as a strategy consultant with Monitor Group (now Monitor Deloitte) in New York, Vietnam, and Kenya. He holds a BA in Economics and Public Health from UC Berkeley and a MPH in Global Health Metrics from the University of Washington. Anthony has served on the board since 2011, formerly as Internships Coordinator and as Marketing & Communications Chair.",
-						"avatar":"img/executive/anthony_sm.jpg",
-						"email":"anthony@ugandavillageproject.org"
-					},
-					{
-						"name":"Laurel Hamilton, MPH",
-						"title":"Member At Large",
-						"bio":"Laurel graduated in 2012 with her Masters in Public Health – Global Design, Monitoring and Evaluation from George Washington University and has a BS in Biological Anthropology. Growing up in the beautiful Pacific NW with very health-conscious parents, she developed a passion for community driven solutions to both environmental and health challenges. After working as UVP’s first In-Country Intern Supervisor during the summer of 2014, she relocated to Los Angeles where she currently manages a small solar installation company. She comes to UVP with a diverse background working in various non-profit social services to researching and volunteering in Ethiopia, Kenya, India, Nepal, and Mexico. After seeing first-hand the amazing impacts UVP is having with communities in Iganga she is excited to contribute to UVP’s growth and development as a Board Member.",
-						"avatar":"img/executive/laurel_sm.jpg",
-						"email":"laurel@ugandavillageproject.org"
-					}
-				]
-			}
-	},
-	"mission":[
-		{
-			"heading":"Our Vision",
-			"content":"We envision a future in which all Ugandan communities will have the means to effectively create and implement their own health and development solutions."
-		},
-		{
-			"heading":"Our Mission",
-			"content":"To facilitate community health and well-being in rural Uganda through improved access, education, and prevention.",
-			"list":{
-				"title":"We strive to uphold this mission in the following ways:",
-				"items":[
-					"Working on project development in collaboration with our local non-governmental and governmental partners in Iganga District, as well as the communities involved in the projects",
-					"Advocating for community health and development through networking inside and outside the district, and supporting efforts on the ground by local partners",
-					"Focusing on understanding the epidemiology and etiology of public health problems in Iganga in order to inform and support direct service projects",
-					"Implementing sustainable public health and development programs that have real impact in communities",
-					"Creating culturally-appropriate project design",
-					"Utilizing interdisciplinary long and short term volunteer teams of professionals and students which seek to support on the ground efforts of Uganda Village Project and its partners",
-					"Learning about and experiencing the culture and daily lives of the Ugandan people",
-					"Including in-depth planning, development, and evaluation to ensure outcomes are achieved"
-				]
-			}
-		},
-		{
-			"heading":"Our Goals",
-			"list":{
-				"title":"Our goals reflect each of our areas of focus, including capacity building, healthcare, and clean water.",
-				"items":[
-					"WASH program: Decrease the health burden of diarrheal diseases",
-					"HIV program: To reduce HIV/AIDS incidence",
-					"Malaria program: Reduce the health burden and mortality due to malaria",
-					"Reproductive health program: Ensure sustainable access to effective and comprehensive reproductive and maternal health education and services",
-					"Obstetric Fistula program: Decrease the health burden of Obstetric Fistula",
-					"Village Health Team capacity building program: To provide Village Health Teams with the skills and knowledge to better serve the community members as a health resource in Healthy Villages"
-				]
-			}
-		},
-		{
-			"heading":"The Village Concept Model",
-			"content":"The Uganda Village Project was created in February of 2003 as an initiative of the International Federation of Medical Students Associations—USA (IFMSA-USA), a 501(c)3 non-profit organization. The IFMSA “Village Concept Project” model was designed in collaboration with the World Health Organization in 1986, whereby medical students and professionals partner with a village in a developing country and work to assist this community over time. IFMSA-USA has successfully applied this model to Ghana, Kenya, Rwanda, Sudan, Tanzania, and Uganda. Village Concept Projects under IFMSA can be found from our partners page."
-		},
+
+	"facebook": "https://www.facebook.com/pages/Uganda-Village-Project/251880514830749",
+	"email": "info@ugandavillageproject.org",
+	"address-usa": "Uganda Village Project\n340 S Lemon Ave #8979\nWalnut,\nCA 91789 USA ",
+	"address-intern-payment": "Uganda Village Project\nc / o Shannon Goggin\n1418 Union Ave\nSan Francisco,\nCA 94109 ",
+	"address-uganda": "Box 2\nIganga Town,\nIganga UGANDA ",
+	"address-uganda-physical": "Plot 12 Moses Kintu Road\nIganga Town,\nIganga UGANDA",
+	"reports": "Uganda Village Project’s works on a year-round basis with Ugandan partners to support projects in healthcare (with special attention to HIV/AIDS, malaria, hygiene and sanitation, family planning, and obstetric fistula), and clean water. To find out more about our projects and finances, please review our reports below. You can find our Forms 990 filed with the IRS and more information about our organization and finances on GuideStar.",
+	"report-links": [
+		"reports/UVP-Annual-Report-2014-for-printing-8.5x141.pdf",
+		"reports/Annual-report-2013.pdf",
+		"reports/2012-UVP-annual-report.pdf",
+		"reports/UVP_AnnualReport2011_web.pdf",
+		"reports/2010-annual-report-final-web.pdf",
+		"reports/2009_report.pdf"
 	],
+	"financial-statements": [
+		"reports/UVP-Financial-Statement-2014.pdf",
+		"reports/UVP-2013-financial-statement.pdf",
+		"reports/UVP_Financial_Statement_2012.pdf",
+		"reports/2008_Finances.pdf",
+		"reports/2007_finances.pdf",
+		"reports/2006_Finances.pdf",
+		"reports/2005_Finances.pdf",
+		"reports/",
+		"reports/",
+		"reports/"
+	],
+	"local-partners": [{
+		"name": "St. Mary’s Shelter of Hope",
+		"description": "Our partnership with St. Mary’s brings HIV testing and counseling to the most rural and remote communities in Iganga District, where access to such services is typically out of reach.",
+		"link": null
+	}, {
+		"name": "District Health Office of Iganga District",
+		"description": "The Healthy Villages program model complements the work of Iganga’s District Health Office by promoting the work of Village Health Teams (VHTs). VHTs are an official part of the Ugandan Ministry of Health structure, and by working with them, we strengthen the systems already in place instead of creating new systems. We involve the government in all steps of our programming, from helping train and supervise the VHTs to visiting communities during sanitation campaigns, and we consider them an important partner.",
+		"link": "http://www.iganga.go.ug/"
+	}, {
+		"name": "Marie Stopes Uganda",
+		"description": "Marie Stopes is the largest sexual and reproductive health provider in Uganda. The organization has been a great support to UVP by donating condoms for distribution during HIV outreaches and attending graduation fairs and other events to provide additional reproductive health services.",
+		"link": "http://www.mariestopes.or.ug/"
+	}, {
+		"name": "District Water Office of Iganga District",
+		"description": "Our partnership with the District Water Office has allowed us to construct more than 65 wells, bringing safe water to the Iganga District’s neediest communities. The District Water Office provides technical expertise and parts, while the Uganda Village Project provides construction materials and collaborates with the community on educational workshops, well placement, and labor.",
+		"link": "http://www.iganga.go.ug/"
+	}],
+	"global-partners": [{
+		"name": "Global Health Council",
+		"description": "The Global Health Council is the world’s largest membership alliance dedicated to saving lives by improving health throughout the world. The Council works to ensure that all who strive for improvement and equity in global health have the information and resources they need to succeed.",
+		"link": "http://www.globalhealth.org/"
+	}, {
+		"name": "Uganda Childbirth Injuries Fund",
+		"description": "UVP works closely with the Uganda Childbirth Injuries Fund (UCIF) to identify women suffering from fistula and bring them for surgery. UCIF sends surgeons from the UK three times a year to operate on up to 25 women per visit. They cover all of the costs of the surgery, allowing us to focus our resources on patient identification, transport, and food and care while in the hospital.",
+		"link": "http://ugandachildbirthinjuryfund.org/"
+	}, {
+		"name": "SeeYourImpact",
+		"description": "SeeYourImpact enables charitable organizations to show the connection of each donor’s gift to the actual end beneficiary in an authentic and transparent manner. They feature gifts for a variety of UVP programs including malaria, HIV, and obstetric fistula.",
+		"link": "http://uvp.seeyourimpact.org/"
+	}, {
+		"name": "The Fistula Foundation",
+		"description": "In 2013, the Fistula Foundation awarded a grant to Uganda Village Project to implement the Fistula Ambassador’s program. The Fistula Ambassadors are women who formerly suffered from fistula and now help educate and identify other women in their communities. The Fistula Foundation also supports our efforts to bring women for repair surgery.",
+		"link": "http://www.fistulafoundation.org/"
+	}],
+	"related-organizations": [{
+		"name": "Inter-Community Development Involvement",
+		"description": "ICODEI is part of the Village Projects – USA network with UVP under IFMSA-USA. This project runs in western Kenya.",
+		"link": "http://www.volunteerkenya.org/index.html"
+	}, {
+		"name": "Ghana Health and Education Initiative",
+		"description": "GHEI is part of the Village Projects – USA network with UVP under IFMSA-USA. This project works in Humjibre, Ghana in the Bibiani District.",
+		"link": "http://www.ghei.org/"
+	}],
+	"internship-committee": [{
+		"name": "Angela Kraszewski",
+		"bio": "Angela served as an intern with UVP on the Nutrition and Sanitation Project Team in 2013. She is currently finishing her Master’s in Global Public Health from The George Washington University and is interning with the Latin American and Caribbean Regional Office of UNICEF in the Planning, Monitoring and Evaluation department. Before UVP, she worked on food safety regulations with the Center for Science in the Public Interest and hopes to pursue a career in food security and nutrition in the future.",
+		"avatar": "img/task-forces/angela_sm.jpg"
+	}, {
+		"name": "Chris Margono",
+		"bio": "Chris served as a Follow-up Team Member in summer 2013. He is interested in Global health, and was inspired to work in rural settings after his experience in Indonesia with the Critical Language Scholarship Program. Prior to UVP, Chris spent much of his time working with low-income youth through a grassroots organization called the K.I.D. Program. Chris currently works at the Institute for Health Metrics and Evaluation, hopes to enter medical school fall 2014, and has future plans to work in Indonesia.",
+		"avatar": "img/task-forces/chris_sm.jpg"
+	}, {
+		"name": "Manon Billaud",
+		"bio": "Manon was an international Launch Team intern in Buwoira in the summer of 2014. The summer before going to Uganda, Manon was a Global Health intern in Ghana with Global Brigades. Currently, Manon is in her junior year at UCLA. She is majoring in Political Science with a double minor in Public Health and French. After completing her bachelor’s degree, Manon hopes to attend graduate school to earn an MPH. She wants to pursue a career in which she is at the frontline of education and prevention programs that concern various public health issues, like safe water or sexually transmitted diseases, in rural populations.",
+		"avatar": "img/task-forces/manon_sm.png"
+	}, {
+		"name": "Greg Brown",
+		"bio": "Greg was an international intern in Bukaigo, a launch village, in the summer of 2013. Before going to Uganda, he spent one month in a rural mountain village in Tanzania through a program at the University of Michigan. There, Greg worked at three different centers: an orphanage, a boarding school for the blind, and a school for the mentally disabled. He recently graduated from the University of Michigan and is currently at work on a documentary about legendary film director Robert Altman, to be released in 2014. He hopes to attend grad school for film in the near future.",
+		"avatar": "img/task-forces/greg_sm.jpg"
+	}, {
+		"name": "Andrew Phinney",
+		"bio": "Andrew interned with UVP in the launch village of Kasambiika 2 in 2013. He graduated from the University of New Hampshire with a degree in medical microbiology in 2014 and currently helps to manage the internship program at the Clinton Foundation. Andrew is moving to Nepal in March 2015 with the Peace Corps to address food security concerns and community health programming.",
+		"avatar": "img/task-forces/andrew_sm.jpg"
+	}, {
+		"name": "Rachel Piontak",
+		"bio": "Rachel served on the Orphan Support Team in 2007 and from this experience, went on to pursue her Master’s in International Development from the University of Cape Town. Her research focused on mobile-based agricultural initiatives for small-scale farming in northern and western Uganda. She completed her graduate degree in 2012 and currently works as a program administrator for the American Indian College Fund in Denver, Colorado.",
+		"avatar": "img/task-forces/rachel_sm.jpg"
+	}, {
+		"name": "Ryan St. Pierre-Hetz",
+		"bio": "Ryan served as a Health Villages Follow up team member in 2012. He attended Northeastern University for undergraduate studies majoring in Neuroscience and International Affairs. He transferred to University of Florida for a combined B.S./M.D. degree in 2011 where he is currently a second year medical student. He is involved in clinical research aimed at improving outcomes in diabetic patient care. He is also the student director of a student lead medical service outreach facility Thailand. He plans to pursue a career in global health and primary care medicine.",
+		"avatar": "img/task-forces/ryan_sm.jpg"
+	}, {
+		"name": "Stephanie Banning",
+		"bio": "Stephanie, from Seattle, WA, was a 2013 intern in the launch village Kasambiika 1. She is a junior at Washington and Lee University in Lexington, Virginia and will graduate in 2015 with a major in Biology and minors in French and in Poverty and Human Capabilities Studies. She is planning to attend medical school after graduation to earn dual MD and MPH degrees with particular interest in women’s sexual and maternal health in developing countries.",
+		"avatar": "img/task-forces/stephanie_sm.jpg"
+	}, {
+		"name": "Tina Khiani",
+		"bio": "Tina graduated from the University of Southern California in 2013 with a double degree in Psychology and Global Medicine. She served as a UVP launch team leader in summer 2013. During her time in Los Angeles, Tina helped run medical camps in rural Mexico. She also traveled to India to examine the diverse healthcare system there and interview several doctors and hospital administration staff. Tina now lives in New York City and interns with Imani House, Inc. a Brooklyn-based nonprofit that has a maternal and child health clinic in Liberia. She also assists with schizophrenia research at Columbia University. Her career goal is to become a certified nurse midwife.",
+		"avatar": "img/task-forces/tina_sm.jpg"
+	}, {
+		"name": "Kyle Yoo",
+		"bio": "Kyle Yoo served as an intern with on the Monitoring & Evaluation Team in 2014. Before going to Uganda, Kyle studied anthropology and biology at the University of Chicago and had worked with a local federally qualified health center that provides primary care to underserved communities on the South Side of Chicago as an Operations intern. Now, he is continuing his education at Feinberg School of Medicine at Northwestern University to pursue his M.D. degree.",
+		"avatar": "img/task-forces/kyle_sm.jpg"
+	}],
+	"fundraising-committee": [{
+		"name": "Emily Chuba",
+		"bio": "Emily has stayed in touch with UVP since volunteering with us in 2004 – she currently works as a rape crisis counselor and volunteers as a mentor for medically at risk refugee women. She has future plans to pursue her Master’s degree in Public Health.",
+		"avatar": "img/task-forces/emily_sm.jpg"
+	}, {
+		"name": "Nathan Tauger",
+		"bio": "Nathan served as a Healthy Villages intern in Kasambiika 1 during the summer of 2013. Nathan currently lives in southern West Virginia, where he serves as an AmeriCorps VISTA with the Rural Appalachian Improvement League. His main objective is to develop an AmeriCorps work program focused on skill acquisition and local agriculture. Nathan graduated from Vassar College in 2014 with a degree in Biology and is a 2013 Truman Scholar.",
+		"avatar": "img/task-forces/nathan.jpg"
+	}],
+	"monitoring-committee": [{
+		"name": "Leah Bevis",
+		"bio": "Leah graduated from Middlebury College with a major in Geography, and a minor in Economics. Raised in Hawaii, she has lived, worked and studied in Switzerland, England, Barcelona, Malawi and Uganda. She first volunteered in Uganda in 2006, conducting writing workshops with vulnerable youth. She returned to Uganda, on a Project for Peace grant from the Katherine Wasserman Davis Foundation, to work on an ethnographic radio story-telling project with youth. After a stint with the New Sudan Initiative in the USA, Leah returned to Uganda as UVP’s first Healthy Villages Program Coordinator. Leah is pursuing a PhD in Economic Development.",
+		"avatar": "img/task-forces/leah_sm.jpg"
+	}, {
+		"name": "Catherine Kirk",
+		"bio": "Cat served as a Healthy Villages team leader and Sujal Parikh Social Justice Research Fellow in summer 2011. In her fellowship with UVP, Cat studied the health needs and experiences of older adults living in Iganga and presented her findings at the International Conference on Aging, Mobility, and Quality of Life. She graduated from the University of Michigan with a master’s in public health in 2012 where she specialized in global health and HIV/AIDS. Cat is currently a Program Manager at the François-Xavier Bagnoud Center for Health and Human Rights and is based in Rwanda.",
+		"avatar": "img/task-forces/catherine_sm.jpg"
+	}, {
+		"name": "Sonali Palchaudhuri",
+		"bio": "Sonali is a medical student at University of Michigan. She interned with UVP in 2009 where she focused on safe water and sanitation programs. She has a degree in biomechanical engineering from Harvard.",
+		"avatar": "img/task-forces/sonali_sm.jpg"
+	}, {
+		"name": "Ozge Tuncalp",
+		"bio": "Ozge is currently writing her dissertation proposal for her doctoral degree in public health at Hopkins, on maternal health in Ghana. She has been working with UVP with a focus on obstetric fistula issues since 2004.",
+		"avatar": "img/task-forces/ozge_sm.jpg"
+	}, {
+		"name": "Ce Zhang",
+		"bio": "Ce is a premedicine major in the Schreyer Honors College at Penn State University, and spent the summer of 2009 with UVP in Uganda. He has done research in collaboration with UVP on tippy taps for primary schools, and co-founded the initiative Tippy Taps for Africa.",
+		"avatar": "img/task-forces/ce_sm.jpg"
+	}, {
+		"name": "Julius Kirya",
+		"bio": "Julius has a degree in Statistics and major in Development Planning from Makerere University in Uganda. He worked with the Economic Policy Research Centre as a Research Assistant for a variety of surveys in collaboration with Uganda Bureau of Statistics, World Vision, Word Bank, and University of Oxford in the UK. He has experience in fieldwork surveys and development of tools and analysis with statistical software such as STATA, SPSS, EXCEL, EPI-data and ACCESS. During university, he volunteered at a nonprofit organization mobilizing youth to reduce teenage pregnancy and fight HIV prevalence. He was a Global Health Corps Fellow at UVP focusing on monitoring and evaluation from 2014-2015. He is currently working with Nurture Africa, a non-governmental organization as a Research, Monitoring and Evaluation Coordinator, with direct responsibility in supervision of all program areas in the Organization.",
+		"avatar": "img/task-forces/julius.jpg"
+	}, {
+		"name": "Orrin Tiberi",
+		"bio": "Orrin graduated in 2014 with a Master’s International in Public Health from the University of Pittsburgh with a concentration in behavioral and community health sciences. As part of his graduate school program, he spent two years in the Peace Corps in Ecuador where he planned health campaigns and informational sessions for students, and conducted research in sexual and reproductive health. Orrin spent 2014-2015 working with UVP as a Global Health Corps Fellow focusing on monitoring, evaluation, and research during which he helped in the data collection for an impact evaluation of the Healthy Villages Initiative. He is currently a ASPPH/CDC Allan Rosenfield Global Health Fellow working in the Monitoring and Evaluation, Strategic Planning team of the Center for Global Health at the CDC.",
+		"avatar": "img/task-forces/orrin_sm.jpg"
+	}],
+	"staff": [{
+		"name": "Leslie Stroud-Romero, MPA",
+		"title": "Executive Director",
+		"bio": "Leslie joined Uganda Village Project in 2013. She has a Master’s Degree in Public Administration and a Certificate in Nonprofit Management from the University of Washington. Leslie is originally from the Seattle area but currently living in Uganda. Before moving to Uganda she was employed at PATH, a global health nonprofit. At PATH she worked with individual and institutional fundraising as well as supporting the donor travel program. She is a returned Peace Corps Volunteer from Malawi and Uganda, where she built the capacity of community-based organizations and implemented several economic development and health projects for orphans and people living with HIV/AIDS.",
+		"avatar": "img/staff/leslie_sm.jpg"
+	}, {
+		"name": "Kelly Child",
+		"title": "Managing Director",
+		"bio": "Kelly Child earned a Bachelor of Arts in Communication from Hawai’i Pacific University. Having experiences in various industries has created opportunities for Kelly in procedural development and program implementation and management. She has worked in a variety of fields including software, after school programs, and building a fire station.",
+		"avatar": "img/staff/kelly_sm.jpg"
+	}, {
+		"name": "Patrick Tulibagenyi",
+		"title": "Assistant Director / Program Manager",
+		"bio": "Patrick has a diploma in social administration and project planning from the Institute of Business and Language Studies. He is currently studying towards a degree in mass communication at Busoga University. He has held a number of diverse jobs including manager of a radio station and secondary school teacher. Patrick has been responsible for coordination of all our shallow wells since 2008. He works with the community, the mason, the district water office and its engineers, the local government officials for the village, and our intern teams to ensure the success of each well construction project we undertake.",
+		"avatar": "img/staff/patrick_sm.jpg"
+	}, {
+		"name": "Maureen Nakalinzi",
+		"title": "Assistant Director / Program Manager",
+		"bio": "Maureen has worked with Uganda Village Project as a volunteer in the past on the HIV program, researching the supply chain and the distribution of ARTs, as well as working with health centers to develop resources. Maureen most recently worked for the Uganda Rural Fund in Masaka, where she has worked in a number of rural projects geared towards improving rural livelihoods. These projects included women’s empowerment, HIV/AIDS, safe water, a rural savings and credit scheme and child sponsorship.",
+		"avatar": "img/staff/maureen_sm.png"
+	}, {
+		"name": "Titus Obbo",
+		"title": "Program Coordinator",
+		"bio": "Titus is a graduate of Makerere University with a degree in Human Resource Management. He also holds a diploma in Secondary Education from Kyambogo University and a Certificate in officer’s administrative law from Law Development Center Makerere. He has experience as a classroom teacher and with community development and public health in Iganga District. He joined UVP in 2009 first as a volunteer and then coordinating the Mod-Pot and Dispenser project. He is currently pursuing further studies towards an MBA.",
+		"avatar": "img/staff/titus_sm.jpg"
+	}, {
+		"name": "Loy Tumusiime",
+		"title": "Program Coordinator:",
+		"bio": "Loy, one of UVP’s fistula success stories, is our Fistula coordinator. Able to speak to patients about the fears and realities surrounding the surgery, she is an inspiration for the possibilities of life after recovery.",
+		"avatar": "img/staff/loy_sm.jpg"
+	}, {
+		"name": "Ruth Kugumikuriza",
+		"title": "Monitoring and Evaluation Officer (Global Health Corps Fellow)",
+		"bio": "Ruth obtained a degree of BSc Education in Makerere University. She chose that career path because of her desire of teaching and capacity building. She later obtained an MSc in Environmental and Public Health at the University of Salford, UK. She has a great passion for community involvement and outreach, which was a central motivator to master in a course that would enhance her ability to reach the undeserved rural communities. Ruth has experience in various research skills, ranging from program planning, implementation, and evaluation as well as systematic analysis of various data. She gained this experience during her work as a research assistant with London School of Hygiene and Tropical Medicine and NARO, Tororo. As the M & E Officer, she currently handles all the monitoring and evaluation work load of the different programs in UVP.",
+		"avatar": "img/staff/ruth_sm.jpg"
+	}, {
+		"name": "Rachel Bridge",
+		"title": "Partnerships Officer (Global Health Corps Fellow)",
+		"bio": "Rachel obtained her BA in Anthropology and African & African American Studies at Washington University in St. Louis. There she fostered her passion for global health, social justice, and community engagement through a variety of programs and communities. Rachel’s experience as a Danforth Scholar and a Civic Scholar cultivated her commitment to global citizenship and community-based collaboration. She learned the power of partnership as a staff member of GlobeMed, a student-run, nonprofit organization dedicated to furthering the movement for global health equity. She served as Global Health University Coordinator and Co-President of her university’s chapter and interned with GlobeMed’s partner organization, Uganda Development and Health Associates (UDHA), to address gaps in youth sexual health education and child malnutrition in Iganga, Uganda. Rachel also spent a summer working with Partners in Health (PIH) to deepen and broaden the right to health movement through empowering grassroots community organizers. Rachel loves being outdoors, reading, exploring, and learning Lusoga from her patient UVP co-workers!",
+		"avatar": "img/staff/rachel_sm.jpg"
+	}],
+	"founders": "Brent Anderson, Kirk Scirto, Alison Schroth Hayward",
+	"executive-board": [{
+		"name": "Alison Hayward, MD, MPH",
+		"title": "Chair of the Board",
+		"bio": "Alison works as an emergency medicine physician at Yale University School of Medicine/Yale New Haven Hospital in Connecticut. She has been involved in Uganda Village Project as co-founder since its inception in 2003 and served as director and assistant director from 2005 to 2013. She has also served as a member of the board of trustees of the International Federation of Medical Students’ Associations – USA.",
+		"avatar": "img/executive/alison_sm.jpg",
+		"email": "alison@ugandavillageproject.org"
+	}, {
+		"name": "Shannon Goggin",
+		"title": "Treasurer",
+		"bio": "Shannon got to know UVP when she visited Iganga in 2012 while working in Ethiopia on an agriculture development initiative. She currently works as a Product Manager at Zenefits in San Francisco. Before that, she worked as a strategy consultant with Monitor Deloitte and led a mission-driven business in Washington, DC, where she developed her passion for using market based solutions to effect positive social change. Shannon received her B.S.B.A in Marketing and English from Georgetown University.",
+		"avatar": "img/executive/Shannon-Crop.png",
+		"email": "shannon@ugandavillageproject.org"
+	}, {
+		"name": "Elizabeth Warren",
+		"title": "Internships Coordinator",
+		"bio": "Elizabeth is currently in the accelerated BSN-MSN program at the Johns Hopkins School of Nursing with a masters specialty in Public Health Nursing and Midwifery. She was a Healthy Villages intern with UVP in the summer of 2010 in the village of Nabukone. As an undergraduate at the University of Pennsylvania, she worked extensively with Engineers Without Borders, traveling to Cameroon and Guatemala to design and implement a clean water distribution system as well as a latrine construction project at several primary schools. After graduating, Elizabeth worked as the Clean Water and Public Health Education Program Manager for Hope for Haiti, a nonprofit based in Les Cayes, Haiti before starting nursing school in May.",
+		"avatar": "img/executive/elizabeth_sm.jpg",
+		"email": "elizabeth@ugandavillageproject.org"
+	}, {
+		"name": "Alicia Majeau",
+		"title": "Fundraising Chair",
+		"bio": "Alicia served as a Healthy Villages summer intern with UVP in 2011, and returned to Iganga District in the summer of 2012 as a team leader. Following her experiences with UVP, she went on to receive her Master’s of Science from Johns Hopkins’ Bloomberg School of Public Health. With a background in cell & molecular biology, Alicia’s interests lie in combining molecular approaches of disease control with real, hands-on public health intervention. She currently resides in Worcester, MA, and is professionally involved in the clinical aspect of health, working at UMASS Medical Center.",
+		"avatar": "img/executive/alicia_sm.jpg",
+		"email": "alicia@ugandavillageproject.org"
+	}, {
+		"name": "Tiffany Hsieh",
+		"title": "Marketing & Communications Chair",
+		"bio": "Tiffany became familiar with UVP’s work when she served as the Education Lead on a One Laptop Per Child project in the Busoga District of Uganda in 2009. Subsequently, she worked as the Executive Assistant to the CEO and COO at Africare, a nonprofit that directs health and HIV/AIDS, and water and sanitation projects across sub-Saharan Africa. She received her BA in Political Science and Public Policy from UC Berkeley and formerly worked as a special education teacher in Colorado Springs. Tiffany currently works as an education policy research analyst at SRI International in Washington DC.",
+		"avatar": "img/executive/tiffany_sm.jpg",
+		"email": "tiffany@ugandavillageproject.org"
+	}, {
+		"name": "Dick Schroth",
+		"title": "IT Officer",
+		"bio": "Dick is the founder and president of Schroth Systems Consulting, and has been developing custom database applications for the last 28 years. He graduated from Middlebury College with a degree in Economics in 1971. He lives with his wife, Linda in Connecticut and has three children (Alison, Jon and Brian), and three grandchildren (with another on the way). He has volunteered with Habitat for Humanity and Big Brothers, and spent a month in Iganga, Uganda in 2009 volunteering with UVP. When he is not working you will probably find him biking, hiking or playing tennis.",
+		"avatar": "img/executive/dick_sm.jpg",
+		"email": "dick@ugandavillageproject.org"
+	}, {
+		"name": "Kim Lomax, MPA",
+		"title": "Grants Committee Chair",
+		"bio": "Kim holds a Master of Public Administration degree with a focus on international public program management. Her professional experience includes writing grants, raising money for nonprofit organizations, developing public policy, and implementing marketing communications strategies. While working on her MPA, Kim developed a service learning program to match MPA students with nonprofits working in the area of international development. Kim currently runs her own business, handling the financial, operational, and marketing needs of a growing enterprise. She lives in Portland, Oregon.",
+		"avatar": "img/executive/kim_sm.png",
+		"email": "kim@ugandavillageproject.org"
+	}, {
+		"name": "Susan Agobia",
+		"title": "Member at Large",
+		"bio": "Susan is a graduate student from St. Francis Xavier University Canada and has a BA in Development Studies and Sociology. She currently lives in Kampala, Uganda but has a very international background. She has been involved in work with local orphanages in Kampala, worked on youth topics of sexual violence on campus in Nova Scotia Canada, and has previous exposure to issues related to HIV/AIDS. She is passionate about international development and would like to grow a career in the development field.",
+		"avatar": "img/executive/susan_sm.jpg",
+		"email": "susan@ugandavillageproject.org"
+	}, {
+		"name": "Shelley Buettner",
+		"title": "Member at Large",
+		"bio": "Shelley works as a Program Manager for a large non-profit healthcare organization in the Pacific NW where she focuses efforts on healthcare reform in primary care. She has extensive clinical expertise including healthcare IT and business consulting and has worked in numerous hospitals, clinics, and health-related nonprofit agencies over the past 18 years. Her education includes post-graduate cellular biology research at Creighton University and a Masters in Family Nurse Practice from Oregon Health & Sciences University. Shelley has a passion for finding innovative ways to collaborate with and empower others to live and play in a healthier world.",
+		"avatar": "img/executive/shelly_sm.jpg",
+		"email": "shelly@ugandavillageproject.org"
+	}, {
+		"name": "Anthony Bui, MPH",
+		"title": "Member at Large",
+		"bio": "Anthony served as a Healthy Villages team leader in 2009 and helped with the conception of the Village Health Teams. He is currently a medical student at the David Geffen School of Medicine at UCLA. Prior to UCLA, Anthony worked as a research fellow at the Institute for Health Metrics and Evaluation (IHME) in Seattle and as a strategy consultant with Monitor Group (now Monitor Deloitte) in New York, Vietnam, and Kenya. He holds a BA in Economics and Public Health from UC Berkeley and a MPH in Global Health Metrics from the University of Washington. Anthony has served on the board since 2011, formerly as Internships Coordinator and as Marketing & Communications Chair.",
+		"avatar": "img/executive/anthony_sm.jpg",
+		"email": "anthony@ugandavillageproject.org"
+	}, {
+		"name": "Laurel Hamilton, MPH",
+		"title": "Member At Large",
+		"bio": "Laurel graduated in 2012 with her Masters in Public Health – Global Design, Monitoring and Evaluation from George Washington University and has a BS in Biological Anthropology. Growing up in the beautiful Pacific NW with very health-conscious parents, she developed a passion for community driven solutions to both environmental and health challenges. After working as UVP’s first In-Country Intern Supervisor during the summer of 2014, she relocated to Los Angeles where she currently manages a small solar installation company. She comes to UVP with a diverse background working in various non-profit social services to researching and volunteering in Ethiopia, Kenya, India, Nepal, and Mexico. After seeing first-hand the amazing impacts UVP is having with communities in Iganga she is excited to contribute to UVP’s growth and development as a Board Member.",
+		"avatar": "img/executive/laurel_sm.jpg",
+		"email": "laurel@ugandavillageproject.org"
+	}],
+	"mission": [{
+		"heading": "Our Vision",
+		"content": "We envision a future in which all Ugandan communities will have the means to effectively create and implement their own health and development solutions."
+	}, {
+		"heading": "Our Mission",
+		"content": "To facilitate community health and well-being in rural Uganda through improved access, education, and prevention.",
+		"list-title": "We strive to uphold this mission in the following ways:",
+		"list-items": [
+			"Working on project development in collaboration with our local non-governmental and governmental partners in Iganga District, as well as the communities involved in the projects",
+			"Advocating for community health and development through networking inside and outside the district, and supporting efforts on the ground by local partners",
+			"Focusing on understanding the epidemiology and etiology of public health problems in Iganga in order to inform and support direct service projects",
+			"Implementing sustainable public health and development programs that have real impact in communities",
+			"Creating culturally-appropriate project design",
+			"Utilizing interdisciplinary long and short term volunteer teams of professionals and students which seek to support on the ground efforts of Uganda Village Project and its partners",
+			"Learning about and experiencing the culture and daily lives of the Ugandan people",
+			"Including in-depth planning, development, and evaluation to ensure outcomes are achieved"
+		]
+	}, {
+		"heading": "Our Goals",
+
+		"list-title": "Our goals reflect each of our areas of focus, including capacity building, healthcare, and clean water.",
+		"list-items": [
+			"WASH program: Decrease the health burden of diarrheal diseases",
+			"HIV program: To reduce HIV/AIDS incidence",
+			"Malaria program: Reduce the health burden and mortality due to malaria",
+			"Reproductive health program: Ensure sustainable access to effective and comprehensive reproductive and maternal health education and services",
+			"Obstetric Fistula program: Decrease the health burden of Obstetric Fistula",
+			"Village Health Team capacity building program: To provide Village Health Teams with the skills and knowledge to better serve the community members as a health resource in Healthy Villages"
+		]
+
+	}, {
+		"heading": "The Village Concept Model",
+		"content": "The Uganda Village Project was created in February of 2003 as an initiative of the International Federation of Medical Students Associations—USA (IFMSA-USA), a 501(c)3 non-profit organization. The IFMSA “Village Concept Project” model was designed in collaboration with the World Health Organization in 1986, whereby medical students and professionals partner with a village in a developing country and work to assist this community over time. IFMSA-USA has successfully applied this model to Ghana, Kenya, Rwanda, Sudan, Tanzania, and Uganda. Village Concept Projects under IFMSA can be found from our partners page."
+	}]
 }
